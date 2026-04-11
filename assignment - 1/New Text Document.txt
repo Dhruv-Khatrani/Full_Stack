@@ -1,0 +1,547 @@
+(1) LAB EXERCISE: Write a simple "Hello World" program in two different programming languages of
+your choice. Compare the structure and syntax
+
+ans:- in (C): #include <stdio.h>
+               int main (){
+                printe ("hello world");
+                return 0;
+               }
+       
+      in (python): printe ("hello world")
+
+
+[:- in c Requires a main() function but in python not requires main function.
+ :- in c Includes header files (eg #include <stdio.h>) but in python not requires header files.]
+
+
+[:- in c Uses semicolons (;) to end statements but in python not youse semicolon.
+ :- in c Uses braces {} to define blocks but in python not youse braces to define block.] 
+ 
+
+(2) THEORY EXERCISE: Explain in your own words what a program is and how it functions.
+What is Programming?
+
+ans:- what is program :- A program is a set of step-by-step instructions that tells a computer what to do 
+                         eg:- recipe tells a cook how to prepare a meal,a program tells a computer how to perform a task
+      how it function :- A program generally works in this sequence like Input,Processing,output
+     
+      What Is Programming :- Programming is the process of designing, writing, testing, and maintaining programs
+
+
+(3) THEORY EXERCISE: What are the key steps involved in the programming process?
+Types of Programming Languages
+
+ans:- here are the steps (1)planning,(2)analysis,(3)design,(4)implementation,(5)testing,(6)maintenance
+      types of programing languages :- c,c++,python,java
+
+
+(4) THEORY EXERCISE: What are the main differences between high-level and low-level
+programminglanguages?
+
+ans:- high-level languages :- designed to easy for read, write, and understand 
+                              Use simple syntax
+                              eg:- Python, Java, C++
+      low- level languages :- hard to  understend 
+                              eg:- machine language
+
+(5) LAB EXERCISE: Research and create a diagram of how data is transmitted from a client to a server
+over the internet.
+
+
+
+
+
+
+
+(6) THEORY EXERCISE: Describe the roles of the client and server in web communication.
+Network Layers on Client and Server
+
+ans:- role of the client :- A client is a device or application that requests services or resources from a server
+                            eg:- A web browser like Google Chrome, A mobile app, A desktop application
+
+      role of the server :- A server is a powerful computer or system that provides services or resources to clients
+                            eg :- Web servers, Application servers, Database servers 
+      
+     Network layers :- Both client and server follow network layers to ensure proper communication. 
+                       The most common models are: osi model , tcp/ip model
+
+
+
+(7) LAB EXERCISE: Design a simple HTTP client-server communication in any language.
+
+ANS :- 
+
+
+
+
+
+
+
+
+(8) THEORY EXERCISE: Explain the function of the TCP/IP model and its layers.
+
+ans :- function = Standardizes network communication
+                  Provides reliable and scalable data transmission
+                  Handles addressing, routing, transmission
+
+       layers = The TCP/IP model has four layers
+                1 Application Layer
+                2 Transport Layer
+                3 Internet Layer 
+                4 Network Access Layer
+
+
+(9) THEORY EXERCISE: Explain Client Server Communication
+
+ans :- Client–Server communication is a way computers talk to each other over a network
+        Client → The computer or app that requests something
+        Server → The computer that provides the service or data
+
+
+(10) LAB EXERCISE: Research different types of internet connections (e.g., broadband, fiber,
+satellite)and list their pros and cons
+
+
+ans :- broadband = Broadband is a high-speed internet connection
+                    pros = Affordable, Widely available, Good for home use
+                    cons = Speed can slow down during peak hours, Not as fast as fiber 
+       
+       fiber = Fiber internet uses light signals through fiber-optic cables
+                pros = Very high speed ,Very reliable, Good for streaming, gaming
+                cons = Not available everywhere, Can be expensive
+                 
+       satellite = Satellite internet uses signals sent to and from satellites in space
+                 pros = Available in rural and remote areas, Does not need cables or phone lines
+                 cons = Slower than fiber, Can be expensive
+
+(11) THEORY EXERCISE: How does broadband differ from fiber-optic internet
+
+ans :- Broadband is a general term for high-speed internet
+       Fiber-optic internet is a specific type of broadband that uses fiber cables
+
+       Broadband = Uses telephone lines, Sends data using electrical signals
+       Fiber-Optic = Uses fiber-optic cables, Sends data using light signals
+
+(12) LAB EXERCISE: Simulate HTTP and FTP requests using command line tools (e.g., curl)
+
+ans :- curl is a command-line tool used to send requests to servers using different protocols such as HTTP and FTP
+       HTTP = curl http://example.com
+
+       FTP = curl ftp://ftp.example.com/file.txt -o file.txt
+
+
+(13) THEORY EXERCISE: What are the differences between HTTP and HTTPS protocols?
+
+ans :- HTTP = Fast
+              Easy to use
+              No encryption
+
+      HTTPS = Data is encrypted
+              Secure for login, banking, shopping
+              Protects user privacy
+
+(14) LAB EXERCISE: Identify and explain three common application security vulnerabilities.
+Suggestpossible solutions.
+
+ANS :- SQL Injection = Attackers insert SQL code into input fields to access or modify the database.
+       Possible Solutions: Use prepared statements
+                           Limit database permissions for the application
+
+       Insecure Authentication = Applications allow weak passwords or fail to protect login credentials properly
+                                Example: Allowing 12345 as a password or storing passwords in plain text
+       Possible Solutions: Enforce strong password policies
+                           Implement multi-factor authentication
+
+
+(15) THEORY EXERCISE: What is the role of encryption in securing applications?
+
+ans :- Encryption is the process of converting data into a secret code so that only authorized users can read it
+       In applications, encryption protects data both when it’s stored and when it’s transmitted over networks
+
+
+(16) LAB EXERCISE: Identify and classify 5 applications you use daily as either system software
+orapplication software 
+
+ans :- 1 Windows
+       2 Google Chrome 
+       3 Microsoft Word 
+       4 Antivirus
+       5 YouTube
+
+(17) THEORY EXERCISE: What is the difference between system software and application software?
+
+ans :- system software = Runs and controls the computer
+                         Operating Systems (Windows, macOS, Linux)
+                         Needed to run application software
+                        
+       application software = Performs user-oriented tasks
+                              Browsers, Games, Spotify
+                              Runs on top of system software
+
+
+(18) LAB EXERCISE: Design a basic three-tiersoftware architecture diagram for a web application.  
+
+ans :- Presentation Layer      
+       application layer
+       data layer 
+
+(19) THEORY EXERCISE: Whatis the significance of modularity in software architecture?
+ 
+ans :- Modularity in software architecture is extremely important because it makes a system easier to build, understand, and maintain
+       1=Improved Maintainability 
+       2=Reusability
+       3=Scalability
+       4=Enhanced Understandability
+
+(20) LAB EXERCISE: Create a case study on the functionality of the presentation, business logic, and
+dataaccess layers of a given software system
+
+ans :- Presentation = This is what the user interacts with directly
+                      Provides forms, buttons, and web pages to display information.
+
+          eg = Users click “Add to Cart” or “Buy Now”.
+
+      Business Logic = Handles the rules and decisions of the system.
+                       Processes requests from the presentation layer and interacts with the data layer.
+
+         eg = Calculate the total price with discounts
+
+(30) THEORY EXERCISE: Why are layers important in software architecture?
+
+ans :- Layers in software architecture are crucial because they organize a system into distinct, manageable parts, each with a clear responsibility.
+       they are yous for Reusability
+                         Maintainability
+                         Scalability
+                         Flexibility
+
+(31)THEORY EXERCISE: Explain the importance of a development environment in software production
+
+ans :- evelopment environment is the combination of tools, software, hardware, and
+       configurations that developers use to build, test, and maintain software.
+
+       It plays a critical role in software production because it directly affects productivity, quality, and reliability.
+
+(32) THEORY EXERCISE: What is the difference between source code and machine code?
+
+ans :-  source code :- Source code is the human-readable form of a program written by a programmer using a programming language
+                       like :- 1= python
+                               2= java
+                               3= c++
+        machine code :- Machine code is the low-level code that a computer’s processor (CPU) can directly understand and execute.
+                        eg = Written in binary 
+                             Not human-readable
+                             
+(33) THEORY EXERCISE: Why is version control important in software development?
+
+ans :- Version control is important in software development because it helps developers manage changes to their code.
+
+       First, it keeps a record of all changes made to a project. If someone makes a mistake, the team can go back to an earlier version and fix it easily.
+       Second, it allows many developers to work on the same project at the same time without overwriting each other’s work.
+       Third, it prevents loss of work. If a computer crashes or a file is deleted, the code can be recovered
+
+(34) THEORY EXERCISE: What are the benefits of using Github forstudents?
+
+ans :- GitHub is a platform that helps people store and manage their code using Git. For students, it has many important benefits.
+
+       1. Stores Your Work Safely:- GitHub keeps your projects online, so you won’t lose your work if your computer crashes.
+       2. Shows Your Skills :- Students can use GitHub as a portfolio. Employers and lecturers can see your projects, code, and progress.
+       3. Helps You Practice Version Control :- Track changes, Fix mistakes     
+       4. Access to Open-Source Projects :- Students can explore and contribute to real-world projects, which helps improve their coding skills. 
+
+(35) THEORY EXERCISE: What are the differences between open-source and proprietary software?
+
+ans :- 1. Open-Source Software :-Open-source software is software where the source code is publicly available.
+                     Anyone can: View the code
+                                 Modify it
+                                 Share it
+                       Example: Linux
+       
+       2. Proprietary Software :- Proprietary software is software that is owned by a company or individual. The source code is not shared with the public.
+                       Example: Microsoft Windows 
+
+(36) THEORY EXERCISE: How does GIT improve collaboration in a software development team?
+
+ans :- Git is a version control system that helps software development teams work together efficiently.
+ 
+       1. Allows Multiple People to Work at the Same Time :- With Git, each team member can work on their own copy of the project. 
+                                                             This means developers can work on different features without interfering with each other.     
+     
+       2. Keeps Track of Changes :-Who made changes, What changes were made
+
+       3. Makes Merging Easy :- When team members finish their work, Git allows them to merge their changes into the main project.
+
+(37) THEORY EXERCISE: What is the role of application software in businesses?
+
+ans :- Application software refers to programs designed to help users perform specific tasks.
+       In businesses, application software plays a very important role in improving efficiency and productivity.
+
+       1. Helps Manage Business Operations :- Businesses use application software to manage daily activities 
+                                    such as:- Accounting, Inventory, Sales
+       2. Improves Communication :- Application software helps employees communicate through:
+                                   [Emails, Messaging systems, Video conferencing]
+
+(38) THEORY EXERCISE: What are the main stages of the software development process?
+
+ans :- The software development process is a series of steps followed to create a software system. These steps are often called the Software Development Life Cycle.
+       1. Planning
+       2. Requirements Analysis
+       3. Design
+       4. coding 
+       5. Testing
+       6. Deployment
+
+(39) THEORY EXERCISE: Why is the requirement analysis phase critical in software development?
+
+ans :- The requirement analysis phase is critical in software development because it determines what the software 
+       should do and ensures the project meets the users’ needs. Mistakes in this phase can cause major problems later.
+
+      1. Identifies User Needs
+      2. Prevents Costly Errors
+      3. Guides Design and Development
+      4. Improves Software Quality
+
+(40) THEORY EXERCISE: What is the role of software analysis in the development process?
+
+ans :- Software analysis is the stage in development where the project is studied to understand what the software should do
+     
+       Understand user needs – identifies problems and requirements
+       Define requirements clearly – decides what features and functions are needed
+       Prevent mistakes – detects issues early, saving time and cost
+
+(41) THEORY EXERCISE: What are the key elements of system design?
+
+ANS :- System design is about architecting scalable, reliable,
+       and maintainable systems that meet functional and non-functional requirements.
+      
+       1. Requirements Analysis: What the system must do, Features, workflows, business logic
+       2. High-Level Architecture: Client-server architecture Layered architecture
+       3. Data Design : SQL, non sql
+
+(42) THEORY EXERCISE: Why is software testing important?
+
+ans :- Software testing is important because it makes sure the software works correctly,
+       safely, and reliably before users use it.
+
+       Finds Bugs :- Testing helps detect errors before customers see them.
+       Improves Quality :- Works as expected, Meets requirements, Performs well
+       Increases Security :- Cause system crashes, Lose customers, Damage brand trust
+       Builds Customer Confidence :-When software runs smoothly, users trust it.
+
+(43) THEORY EXERCISE: What types of software maintenance are there?
+
+ans :- Corrective Maintenance :- Fixing errors or bugs after the software is released
+
+       Adaptive Maintenance :- Updating the software to work in a new environment.
+
+       Perfective Maintenance :- Improving the software based on user feedback.
+
+       Preventive Maintenance :- Making changes to prevent future problems.
+
+(44) THEORY EXERCISE: What are the key differences between web and desktop applications?
+
+ans :- Web Application :- No installation needed
+                          Usually requires internet
+                          Accessible from any device with a browser
+                          Updated automatically on server
+                          Depends on internet speed
+ 
+      Desktop Application :- Must be installed on computer
+                             Can work offline
+                             Usually tied to one device
+                             User must update manually
+                             Usually faster
+
+(45) THEORY EXERCISE: What are the advantages of using web applications over desktop applications?
+
+ans :- Access from Anywhere :- Web apps can be used from any device with internet and a browser
+
+       No Installation Required :-Users don’t need to install anything.
+
+       Automatic Updates :-Updates happen on the server.
+
+       Lower Cost :-No installation cost, No maintenance on each user’s device
+
+       Cross-Platform Compatibility :- Windows, mac 
+
+(46) THEORY EXERCISE: What role does UI/UX design play in application development?
+
+ans :- UI/UX design plays a very important role because it focuses on how the application looks, feels, and works
+
+      (1) =  UI – How It Looks :- Colors
+                                  buttons
+                                  Layout
+                                  Fonts
+                                  Visual design
+  
+      (2) UX – How It Feels :- Ease of use
+                               Navigation
+                               User satisfaction
+                               Smooth interaction
+
+(47) THEORY EXERCISE: What are the differences between native and hybrid mobile apps?
+
+ans :-  Native App = Built for one platform
+                     Platform-specific
+                     Very fast and smooth
+                     Full access
+                     Higher cost
+  
+        Hybrid App = Built once, works on multiple platforms
+                     Web technologies
+                     Slightly slower than native
+                     Limited or uses plugins
+                     Lower cost
+
+(48) THEORY EXERCISE: What is the significance of DFDs in system analysis?
+
+ans :- DFD shows how data moves through a system
+ 
+       Visual Representation of the System :- Makes it easy to understand the flow of data.
+       Helps Identify System Requirements :- Analysts can see what the system needs to do
+       Detects Errors :- Shows redundant or missing processes 
+       Communication Tool :- Bridges the gap between developers, users, and stakeholders.
+
+(49) THEORY EXERCISE: What are the pros and cons of desktop applications compared to web applications?
+ 
+ans :- Desktop Applications :-
+       Pros:- Better Performance – Runs locally, faster and smoother.
+              Works Offline – Doesn’t need internet to function.
+              Full Access to System Resources – Can use hardware like GPU
+
+       Cons:-Platform-Specific – Needs separate versions for Windows, Mac, etc.
+             Installation Required – Users must download and install.
+             Manual Updates – Users need to update apps themselves.
+      
+       Web Applications :- 
+       pros:- Accessible Anywhere – Works on any device with a browser.
+              No Installation Needed – Just open a browser and start.
+              Automatic Updates – Always uses the latest version
+
+       cons:- Dependent on Internet – May not work offline.
+              Slower Performance – Depends on browser and internet speed.
+              Limited Access to Device Hardware – Harder to fully utilize system resources.
+
+(50) :- THEORY EXERCISE: How do flowcharts help in programming and system design?
+
+ans :- A flowchart is a diagram that represents the step-by-step flow of a process or program using 
+       symbols like arrows, ovals, rectangles, and diamonds.
+ 
+       Visualize the Process - Shows the sequence of steps clearly.
+       Plan Before Coding - Helps programmers design the algorithm first 
+       Identify Problems Early - Reveals logical errors, missing steps, or redundant processes before implementation.
+       Documentation & Maintenance - Acts as a reference for future updates or maintenance
+       
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
