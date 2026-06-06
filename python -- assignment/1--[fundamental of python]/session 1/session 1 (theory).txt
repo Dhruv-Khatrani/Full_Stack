@@ -1,0 +1,26 @@
+5. Difference Between Python, C, and Java Execution
+
+ans = Python = Python code is interpreted.
+               The Python interpreter reads and executes code line by line.
+
+example = print("Hello")
+
+
+(2) c = C code is compiled directly into machine code before execution.
+
+example = 
+#include <stdio.h>
+
+int main() {
+    printf("Hello");
+    return 0;
+}
+
+(3) Java = Java code is compiled into bytecode and then executed by the Java Virtual Machine (JVM).
+
+example=
+class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
