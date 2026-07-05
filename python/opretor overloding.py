@@ -1,7 +1,7 @@
 class point:
 
-    def __int__(self,x,y):
-        print("int calld")
+    def __init__(self,x,y):
+        print("init calld")
         self.x=x
         self.y=y
     def __str__(self):
@@ -17,4 +17,4 @@ p1=point(10,20)
 print(p1)
 p2=point(30,40)
 print(p2)
-print("addition of 2 objects are :".p1+p2)
+print("addition of 2 objects are :",p1+p2)

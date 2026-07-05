@@ -1,4 +1,14 @@
 from tkinter import *
+import mysql.connector
+
+def creat_conn():
+    return mysql.connector.connect(
+        host="localhost",
+        database="python_new",
+        user="root",
+        password=""
+        )
+print(creat_conn())
 
 def insert_data():
     print("Insert Button Clicked")
