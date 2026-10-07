@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li::first-letter {
+            background-color: lightcoral;
+        }
+
+        .main::selection{
+            background-color: aqua;
+            color: red;
+        }
+
+
+        ul li::before {
+            content: "d";
+            height: 100px;
+        }
+
+        ul li::after {
+            content: "dhruv";
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>home</li>
+        <li>home</li>
+        <li>about</li>
+        <li>home</li>
+        <li>help</li>
+    </ul>
+
+    <div class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, unde nostrum magni temporibus, placeat at
+        dolores quibusdam officia totam saepe ut earum ipsam, fugit molestiae adipisci sapiente doloribus sunt dolorem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odio accusamus, minus vitae tempora autem
+        placeat voluptate corporis, vel recusandae cumque quasi non saepe quae ullam voluptatem fuga error est.
+    </div>
+</body>
+
+</html>

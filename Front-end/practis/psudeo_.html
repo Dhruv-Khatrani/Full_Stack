@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      ul li:first-child{
+        background-color: aqua;
+      }
+
+      ul li:last-child{
+
+        background-color: blueviolet;
+      }
+
+      ul li:nth-child(2){
+        background-color: blue;
+      }
+
+      .main{
+        height: 200px;
+        width: 200px;
+        border: 2px solid;
+        transition: .7s;
+
+      }
+
+
+      .main:hover{
+        background-color: lightcoral;
+        transform: translate(100px);
+        border-radius: 100px;
+      }
+      
+      input{
+        margin-top: 50px;
+      }
+
+      input:focus{
+        background-color: aqua;
+        color: rgb(235, 32, 17);
+      }
+
+
+
+        </style>
+</head>
+<body>
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li> 
+        <li>list 3</li>
+        <li>list 4</li>
+    </ul>
+
+    <div class="main">
+    </div>
+
+    <input type="text" placeholder="enter your name">
+</body>
+</html>

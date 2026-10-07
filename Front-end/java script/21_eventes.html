@@ -1,0 +1,47 @@
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Events : browser functionaliy
+
+    1) mouse  : click,enter
+    2) keyboard : key press,up 
+    3) form  : onsubmit ,blure
+    4) window : resize ,load() -->
+
+
+    <button onclick="test()">Show me</button>
+    <button onclick="dd()">non me</button>
+
+    <button onclick="sum()">Add</button>
+    <button onclick="sub()">sub</button>
+
+    <script>
+
+        function test(){
+            console.log("hello test")
+        }
+         
+        function dd(){
+            console.log("hello dd")
+        }
+        let a = 20
+        let b =10
+
+        function sum(){
+            console.log("Add : ",a+b)
+        }
+
+
+        let A =50
+        let B=30
+        
+        function sub(){
+            console.log("sub :",A-B)
+        }
+    </script>
+
+
+</body>
+</html>
